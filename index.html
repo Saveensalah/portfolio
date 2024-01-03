@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(170, 167, 167);
+    background-image: url("bg.jpg");
+;
+    cursor: url(crown-ro), auto;
+  }
+
+  .navbar {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        font-family: "Poppins", sans-serif;
+        width: fit-content;
+      }
+
+      .nav-links {
+        display: flex;
+        align-items: center;
+        background: #fff;
+        padding: 20px 15px;
+        border-radius: 12px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .nav-links li {
+        list-style: none;
+        margin: 0 12px;
+      }
+
+      .nav-links li a {
+        position: relative;
+        color: #333;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 6px 0;
+        text-decoration: none;
+      }
+
+      .nav-links li a:before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 3px;
+        width: 0%;
+        background: #34efdf;
+        border-radius: 12px;
+        transition: all 0.4s ease;
+      }
+
+      .nav-links li a:hover:before {
+        width: 100%;
+      }
+
+      @media (min-width: 768px) {
+        .navbar {
+          top: 60px;
+          left: 1600px;
+        }
+      }
+
+  .section2 p {
+    text-align: center;
+    font-family: "Ephesis", cursive;
+    font-size: 45px;
+    margin-right: 20px;
+  }
+
+  .profile-class {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    left: -30px;
+    top:-60px;
+    border: 1px solid rgb(238, 236, 236);
+    filter: brightness(120%);
+         filter: contrast(120%);
+         filter: drop-shadow(5px 5px rgb(131, 141, 131));
+      
+    /* Center the circular frame */
+  }
+
+  .profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .section2,
+  .profile-class {
+    margin-top: -120px;
+  }
+  .section2 p{
+    position: relative;
+    top: 200px;
+    left: 90px;
+
+  }
+  .circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999999;
+  }
+  .hello {
+    color: #ff3737;
+    text-align: center;
+    margin-top: 50px;
+
+  }
+  .about-me {
+    width: 100%;
+    max-width: 200px;
+    height: 60px;
+    background-color: #55042d;
+    font-size: 20px;
+    border-radius: 30px;
+    border-color: #37b7ff;
+    margin-top: 20px;
+    color: white;
+  }
+  .thumb {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    background-color: none;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .port {
+    border-radius: 30px;
+    max-width: 100%;
+    /* flex: 1; */
+  }
+  .section3 h1 {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  @media (min-width: 768px) {
+    .navbar {
+      top: 60px;
+      left: 1600px;
+    }
+
+    .section2 p {
+      margin-right: 200px;
+    }
+  }
+  .section2{
+    margin-top: -400px;
+  }
+  .move{
+    position: relative;
+    top: 230px;
+  }
+  .section3{
+    margin-top: -300px;
+  }
+</style>
+<body>
+    <div class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li class="center"><a href="portfolio-about.html">About</a></li>
+        </ul>
+      </div>
+    <div class="move">
+
+      <div  class="section2" >
+        <p>Hi My Name Is SAVEEN SALAH</p>
+        <div class="profile-class">
+          <img class="profile" src="pro-pic.png" alt="" />
+        </div>
+        <div class="hello">
+          <h1 class="hello">Want to know more about me</h1>
+          <button class="about-me"><a href="portfolio-about.html"> about me </a><span>&#8594;</span></button>
+        </div>
+      </div>
+    </div>
+      <div class="section3">
+        <h1>MY PROJECTS</h1>
+        <div class="thumb">
+
+          <a href="portfolio-pro1.html">
+          <img  class="port"  src="portfolio - Copy.png" alt="" />
+          </a>
+          <a href="portfolio-pro2.html">
+          <img class="port" src="port2.png" alt="" />
+          </a>
+        </div>
+      </div>
+  
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </body>
+    <script>
+      const coords = { x: 0, y: 0 };
+      const circles = document.querySelectorAll(".circle");
+  
+      const colors = [
+        "#020202",
+        "#201c18",
+        "#443526",
+        "#704f2d",
+        "#a4682d",
+        "#ec805d",
+        "#e36e5c",
+      ];
+    //   const coords = { x: 0, y: 0 };
+    // const circles = document.querySelectorAll(".circle");
+      circles.forEach(function (circle, index) {
+        circle.x = 0;
+        circle.y = 0;
+        circle.style.backgroundColor = colors[index % colors.length];
+      });
+  
+      window.addEventListener("mousemove", function (e) {
+        coords.x = e.clientX;
+        coords.y = e.clientY;
+      });
+  
+      function animateCircles() {
+        let x = coords.x;
+        let y = coords.y;
+  
+        circles.forEach(function (circle, index) {
+          circle.style.left = x - 12 + "px";
+          circle.style.top = y - 12 + "px";
+  
+          circle.style.scale = (circles.length - index) / circles.length;
+  
+          circle.x = x;
+          circle.y = y;
+  
+          const nextCircle = circles[index + 1] || circles[0];
+          x += (nextCircle.x - x) * 0.3;
+          y += (nextCircle.y - y) * 0.3;
+        });
+  
+        requestAnimationFrame(animateCircles);
+      }
+  
+      animateCircles();
+</script>  
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro"
+    />
+  </head>
+    <style>
+      body {
+        margin: 0;
+        padding-left: 200px;
+background-image: url("bg.jpg");
+        padding-right: 100px;
+      }
+      .navbar {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .nav-links {
+        display: flex;
+        align-items: center;
+        background: #fff;
+        padding: 20px 15px;
+        border-radius: 12px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .nav-links li {
+        list-style: none;
+        margin: 0 12px;
+      }
+
+      .nav-links li a {
+        position: relative;
+        color: #333;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 6px 0;
+        text-decoration: none;
+      }
+
+      .nav-links li a:before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 3px;
+        width: 0%;
+        background: #34efdf;
+        border-radius: 12px;
+        transition: all 0.4s ease;
+      }
+
+      .nav-links li a:hover:before {
+        width: 100%;
+      }
+
+      @media (min-width: 768px) {
+        .navbar {
+          top: 60px;
+          left: 1600px;
+        }
+      }
+
+      
+      .heading h1 {
+        position: relative;
+        top: 150px;
+        font-family: "Crimson Pro", serif;
+        font-size: 48px;
+      }
+      .heading2 h1 {
+        position: relative;
+        top: 190px;
+      }
+      .about {
+        position: relative;
+        top: 210px;
+      }
+      h2 {
+        position: relative;
+        top: 240px;
+      }
+      .home{
+       position: relative;
+       left: 1500px;
+       top: 50px;
+      }
+    </style>
+    <body>
+      <div class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li class="center"><a href="portfolio-about.html">About</a></li>
+        </ul>
+      </div>
+
+      <div class="heading">
+        <h1>ABOUT ME</h1>
+      </div>
+      <div class="heading2">
+        <h1>hi my name is Saveen Salah.</h1>
+      </div>
+      <h1 class="about">
+        I was born and raised in Anchal,kollam district in kerala,India and I am a recent
+        UI UX designer and developer graduate @Techmindz of Design based in ernakulam . From a young age, I have been passionate about anything and
+        everything visual, which pushed me to want to pursue a career in the
+        creative industry.
+      </h1>
+      <h2>
+        Resume available upon request. Email me saveensalahpec18cs022@gmail.com
+      </h2>
+
+</html>

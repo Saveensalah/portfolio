@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Market hub</title>
+  </head>
+  <style>
+    body {
+      background-image: url("bg2.jpg");
+    }
+    * {
+      margin: 0;
+      padding-left: 30px;
+      padding-right: 50px;
+      padding-top: 20px;
+    }
+    .navbar {
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    .nav-links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #fff;
+      padding: 20px 15px;
+      border-radius: 12px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .nav-links li {
+      list-style: none;
+      margin: 0 12px;
+    }
+
+    .nav-links li a {
+      position: relative;
+      color: #333;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 6px 0;
+      text-decoration: none;
+    }
+
+    .nav-links li a:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 3px;
+      width: 0%;
+      background: #34efdf;
+      border-radius: 12px;
+      transition: all 0.4s ease;
+    }
+
+    .nav-links li a:hover:before {
+      width: 100%;
+    }
+
+    @media (min-width: 768px) {
+      .navbar {
+        width: 100%;
+        top: 60px;
+        left: 1600px;
+      }
+    }
+    .image {
+      position: relative;
+      margin: 0 auto;
+      width: 800px;
+      height: 600px;
+      margin-top: -100px;
+      padding-top: 300px;
+      padding-bottom: 20px;
+    }
+    img {
+      position: relative;
+      margin: 0 auto;
+      width: 800px;
+      height: 600px;
+      /* padding-top: 300px; */
+    }
+    .pro-name {
+      text-align: center;
+      color: rgb(126, 19, 19);
+      padding-top: 40px;
+      font-size: 40px;
+    }
+    .details {
+      width: auto;
+      height: auto;
+      background-color: none;
+      font-size: 12px;
+      position: relative;
+      left: 30px;
+      margin-top: 70px;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+    }
+    .title-one {
+      font-size: 30px;
+      color: rgb(126, 19, 19);
+      font-weight: bold;
+    }
+    .det {
+      padding-left: 105px;
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+    .thu {
+      position: relative;
+      left: 600px;
+      border-radius: 20%;
+      height: 300px;
+      width: 500px;
+      margin-top: 30px;
+      margin-bottom: 120px;
+    }
+    .three {
+      position: relative;
+      top: 100px;
+    }
+    .pic1 {
+      position: relative;
+      margin: 0 auto;
+      height: 600px;
+      width: 1100px;
+    }
+  </style>
+  <body>
+    <div class="navbar">
+      <div class="title">
+        <h1>Market hub</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="center"><a href="portfolio-about.html">About</a></li>
+      </ul>
+    </div>
+
+    <div class="image">
+      <img src="portfolio.png" alt="" />
+    </div>
+    <h1 class="pro-name">Market Hub</h1>
+    <div class="details">
+      <h1>
+        Role: User Interface Desginer, User Experience Designer, Usability
+        Testing, Prototyping
+      </h1>
+      <h1>Context: UI design Project</h1>
+      <h1>Timeline: Oct 2021 - Feb 2022</h1>
+      <h1>Tools: Figma, adobe xd</h1>
+      <h1>
+        A mobile app centered around the experience of going to the Farmer's
+        Market.
+      </h1>
+    </div>
+    <div class="title-one">
+      <p>01. PROJECT BACKGROUND</p>
+    </div>
+    <p class="det">
+      Market hub In this capstone project, I designed an application that is
+      centered around the experience of going to a live Market where the user
+      can sell and buy goods. The purpose of the application is to make it
+      easier for consumers to find out more about the vendors and the products
+      that they purchase at a Market. <br />
+      <br />👩🏻‍🌾 In short, I want to streamline the process of buy sell process
+      more conviniently . The focus for this app was placed on a minimal number
+      of actions that would be executed seamlessly in a visually satisfying and
+      appealing way.
+    </p>
+    <img class="thu" src="buysell.png" alt="" />
+
+    <div class="title-one">
+      <p>02 TARGET DEMOGRAPHIC</p>
+    </div>
+
+    <p class="det">
+      • People who care about the food that they purchase and consume 🥒
+    </p>
+    <p class="det">• Those who frequent the farmers market often ⏰ <br /></p>
+    <p class="det">
+      • Those who prefer going to the farmers market over the supermarket 🛒
+    </p>
+    <p class="det">
+      • Those who are interested in where their food comes from or how it is
+      made 💭
+    </p>
+
+    <div class="title-one">
+      <p class="three">03 THE SOLUTION</p>
+    </div>
+    <img class="pic1" src="pic1.png" alt="" />
+    <img class="pics1" src="pic2.png" alt="" />
+  </body>
+</html>
